@@ -12,10 +12,9 @@ end
 
 def square_array(new_numbers)
   array = [9,10,16,25]
-  length = array.length
   newer_array = []
   
-  while length.times do |index|
+  while array.length.times do |index|
     puts newer_array << (new_numbers.[index] * new_numbers.[index])
   end
   
