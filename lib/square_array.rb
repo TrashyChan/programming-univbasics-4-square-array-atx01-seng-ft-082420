@@ -15,7 +15,7 @@ def square_array(new_numbers)
   newer_array = []
   
   while array.length.times do |index|
-    puts newer_array << (new_numbers.[index] * new_numbers.[index])
+    puts newer_array << (array[index] * array[index])
   end
   
   p newer_array
