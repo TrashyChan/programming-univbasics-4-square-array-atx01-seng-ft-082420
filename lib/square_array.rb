@@ -9,14 +9,3 @@ def square_array(numbers)
   
   p new_array
 end
-
-def square_array(new_numbers)
-  array = [9,10,16,25]
-  newer_array = []
-  
-  while new_numbers.length.times do |index|
-    puts newer_array << (new_numbers[index] * new_numbers[index])
-  end
-  
-  p newer_array
-end
